@@ -1,0 +1,6 @@
+{
+    "name": "celeris-cli",
+    "packagePath": "packages/celeris-cli",
+    "tagTemplate": "{{new-version}}",
+    "identifierBase": false
+}

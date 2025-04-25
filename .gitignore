@@ -1,0 +1,12 @@
+# Packages
+node_modules
+
+# Test Logs
+coverage
+
+# Miscellaneous
+.turbo
+junit.xml
+
+# Enviroment
+.env.local

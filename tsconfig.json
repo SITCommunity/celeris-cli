@@ -1,0 +1,36 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig.json",
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "CommonJS",
+
+        "lib": [
+            "ES2020"
+        ],
+
+        "outDir": "dist",
+        "declaration": true,
+        "declarationMap": false,
+        "sourceMap": false,
+        "removeComments": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noUncheckedIndexedAccess": true,
+        "useDefineForClassFields": true,
+        "skipDefaultLibCheck": true,
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+
+        "types": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+    ]
+}
